@@ -1,10 +1,7 @@
-
 #!/usr/bin/env python3
-"""Module for simple end-to-end (E2E) integration tests for `app.py`.
-"""
+"""Module for simple end-to-end (E2E) integration tests for `app.py`."""
 
 import requests
-
 from app import AUTH
 
 EMAIL = "guillaume@holberton.io"
@@ -96,7 +93,7 @@ def profile_logged(session_id: str) -> None:
 
 
 def log_out(session_id: str) -> None:
-    """Tests tests the process of logging out from a session.
+    """Tests the process of logging out from a session.
 
     Args:
         session_id (str): The session ID of the user to log out.
